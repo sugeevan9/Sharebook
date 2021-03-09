@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>eLibrary</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+</head>
+
+<body id="page-top">
+
+    <ul class="nav nav-tabs nav-justified">
+        <li class="nav-item">
+            <a href="https://www.edf.fr"><img src="assets/img/logo.png" width="50" alt="logo"></a></li>
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="informations.php">Informations</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Aides.php">Aides</a>
+        </li>
+    </ul>
+    <div class="login">
+        <form method="post" style="margin-top:-100px" action="auth.php"> 
+            <h1>eLibrary</h1>
+            <img src="assets/img/logo.png" alt="logo edf"><br/>
+            <h2 class="sr-only">Connexion</h2>
+            <div class="form-group"><input class="form-control" name="nni" placeholder="ID"></div>
+            <div class="form-group"><input class="form-control" type="password" name="pwd" placeholder="Mot de passe"></div>
+            <div class="form-group">
+                <button class="btn btn-primary btn-block" type="submit">Connexion</button>
+            </div>
+            <a href="auth.php"></a>
+            <a href="Aides.php" class="new_member">Demander un accès</a>
+            <a href="Aides.php" class="new_member"><i class="fa fa-question-circle-o" style="font-size: 25px;"></i></a>
+        </form>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

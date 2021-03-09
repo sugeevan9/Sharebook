@@ -1,0 +1,26 @@
+.sous_box, .alert-danger{
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.2);
+}
+
+.sous_box {
+    background-color: white !important;
+}
+
+
+i {
+    padding : 22px !important;
+    padding-bottom: 10px !important;
+}
+
+.row {
+    text-align: center !important;
+}
+
+div strong {
+    padding: 10px !important;
+    margin: 10px !important;
+}
+
+body {
+    background-color: rgba(25, 163, 188, 0.07);
+}

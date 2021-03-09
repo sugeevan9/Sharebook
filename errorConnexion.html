@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Erreur Connexion</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/error.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+
+
+</head>
+
+<body>
+<div class="box">
+    <div class="container">
+        <h2 class="text-center">Accès refusé</h2>
+        <div role="alert" class="alert alert-danger">
+            <h4 class="alert-heading" style="text-align: center">Veuillez d'abord vous connecter avant d'y accéder</h4>
+            <p class="text-center">Cliquez ci-dessous pour vous rediriger vers une page</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-6 item">
+                <div class="box sous_box">
+                    <i class="fa fa-database" style="background-color: #f9dd16;width: 99px;height: 92px;font-size: 61px;border-radius: 50px;padding: 20px; margin: 20px"></i>
+                    <a href="connexion.php"><h3><strong>Connexion</strong></h3></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 item">
+                <div class="box sous_box">
+                    <i class="fa fa-search" style="background-color: #f9dd16;width: 99px;height: 92px;font-size: 61px;border-radius: 50px;padding: 20px; margin: 20px"></i>
+                     <a href="contact.php"><h3><strong>Contacter les administrateurs</strong></h3></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php
+        header("refresh: 4; url=/");
+    ?>
+
+</body>
+</html>

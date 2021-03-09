@@ -1,0 +1,12 @@
+section {
+    padding: 0 !important;
+}
+
+h1 {
+    animation-name: bounceInDown !important;
+}
+
+
+.star_note {
+    color: #d79743;
+}
